@@ -1,0 +1,8 @@
+:root { --brand:#0D47A1; }
+body { scroll-behavior: smooth; }
+.navbar-brand { color: var(--brand); }
+a:focus, button:focus, input:focus, textarea:focus { outline: 3px solid #ffbf47 !important; outline-offset: 2px; }
+.visually-hidden-focusable:active, .visually-hidden-focusable:focus {
+  position: static; width:auto; height:auto; margin:1rem; clip:auto;
+}
+.skip-link { position:absolute; left:-9999px; }
